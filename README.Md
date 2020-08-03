@@ -8,41 +8,40 @@ In summary, for each sample, it performs forward propagation, backpropagation af
 
 # INPUT PARAMETERS
 The Backpropagation function's input parameters are as follows:
-
-##inputA: 
+## inputA: 
 Actual inputs for the input layer (for training)
-##desiredOutD: 
+## desiredOutD: 
 Desired outputs at the output layer for each of the inputs (for training) 
-##validA: 
+## validA: 
 Actual inputs for the input layer (for validation)
-##validD: 
+## validD: 
 Desired outputs at the output layer for each of the inputs (for validation) 
-##dataSetLink:  
+## dataSetLink:  
 Link to complete data set for cross validation while training (Optional)
-##hidden_Neurons: 
+## hidden_Neurons: 
 number of neurons in the hidden layer
-##outpt_Neurns: 
+## outpt_Neurns: 
 number of neurons in the output layer
-##eta: 
+## eta: 
 the learning rate for modifying the delta terms weights and biases
-##MSETolerance: 
+## MSETolerance: 
 the minimum MSE required.
-##alpha: 
+## alpha: 
 the momentum factor to accelerate gradient weights for next epoch
-##maxNumEpochs: 
+## maxNumEpochs: 
 maximum number of epochs
-#RETURN VALUES
-##Wih: 
+# RETURN VALUES
+## Wih: 
 Input-Hidden layer weights for validation
-##Bh: 
+## Bh: 
 Hidden layer Bias for validation
-##Whj: 
+## Whj: 
 Hidden-Output weights for validation
-##Bo: 
+## Bo: 
 Output layer bias for validation
-##achievedMSE: 
+## achievedMSE: 
 The achieved MSE after training
-##numEpochsDone: 
+## numEpochsDone: 
 The total number of epochs required to complete a particular training. To get accurate return of this value, the maxNumEpochs parameter must be set to a large unreachable value.
 
 
