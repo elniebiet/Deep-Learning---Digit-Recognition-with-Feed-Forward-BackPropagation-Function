@@ -8,6 +8,7 @@ In summary, for each sample, it performs forward propagation, backpropagation af
 
 # INPUT PARAMETERS
 The Backpropagation function's input parameters are as follows:
+
 ##inputA: 
 Actual inputs for the input layer (for training)
 ##desiredOutD: 
