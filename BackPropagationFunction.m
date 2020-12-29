@@ -1,6 +1,9 @@
 clc;
 clear all;
 
+%%this file will execute the entire application and utilise the 
+%%backpropagation function
+
 mainDirectory = "handwritten_number_rgb";
 
 %import imgs and labls for training and validation, 
@@ -22,7 +25,7 @@ maxNumEpochs_ = 5000; %set maximum number of epochs
 
 %%DIGIT RECOG VALIDATION STARTS
 %uncomment these lines to test a single image, insert image to
-%workspace and type name in imread function
+%workspace and type name in imread function to import the image to matrix
 % rawImage = imread('img_17.png');
 % levelRawImage = graythresh(rawImage);
 % imgs_Validation = im2bw(rawImage, levelRawImage);
