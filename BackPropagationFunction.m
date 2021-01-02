@@ -10,7 +10,7 @@ mainDirectory = "handwritten_number_rgb";
 %the function divides the data into 8/10 for training and 2/10 for validation.
 [imgs_Training, lbls_Training, imgs_Validation, lbls_Validation, divisionPoint] = importTVData(mainDirectory);
 
-hidden_Neurons_ = 100;
+hidden_Neurons_ = 75; %% number of hidden neurons, frm 100
 eta_ = 0.005; %learnng rte
 MSETolerance_ = 0.3; %%set lowest MSE tolerance
 alpha_ = 0; %momentum set inside the function, 1/num_Samples works just fine
