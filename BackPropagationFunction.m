@@ -12,7 +12,7 @@ mainDirectory = "handwritten_number_rgb";
 
 hidden_Neurons_ = 75; %% number of hidden neurons, frm 100
 eta_ = 0.005; %learnng rte
-MSETolerance_ = 0.3; %%set lowest MSE tolerance
+MSETolerance_ = 0.31; %%set lowest MSE tolerance
 alpha_ = 0; %momentum set inside the function, 1/num_Samples works just fine
 outpt_Neurns_ = 10; %set numb of o/p neurons 1-10 for digits 0-9
 maxNumEpochs_ = 5000; %set maximum number of epochs
